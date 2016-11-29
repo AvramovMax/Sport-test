@@ -1,0 +1,1645 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/hero-slider.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal-0.3.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+
+	<link href="css/jquery.formstyler.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/nouislider.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/mobile.css">
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,900,500&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="images/favicons/manifest.json">
+<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#ef3f47">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body>
+		<header>
+			<div class="wrapper">
+				<div class="logo-wrap">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg"></a>
+					</div>
+				</div>
+				<div class="header-wrap">
+					<div class="options clearfix">
+						<div class="town">
+							<select class="town-select">
+								<option>Москва</option>
+								<option>Санкт-Петербург</option>
+								<option>Новосибирск</option>
+								<option>Екатеринбург</option>
+								<option>Нижний Новгород</option>
+								<option>Казань</option>
+								<option>Челябинск</option>
+								<option>Омск</option>
+								<option>Самара</option>
+								<option>Ростов-на-Дону</option>
+							</select>
+						</div>
+						<div class="search">
+							<form action="#" method="post" class="clearfix">
+								<input type="search" name="main-search" placeholder="Поиск">
+								<input type="submit" class="search_but">
+							</form>
+						</div><div class="notif open_dropdown new_nofit"> <!--new_nofit для непрочитанных-->
+                            <div class="elem"></div>
+						    <div class="dropdown_block">
+						        <div class="counter pad">
+						            Количество уведомлений: <span class="count">183</span>
+						        </div>
+						        <div class="dropdown_wrap">
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/mag.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+						                      <span class="bold">Спарта</span> ответил(а) на ваш отзыв к магазину <a href="#" class="blue">Спарта</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item goodrate">
+						                <div class="img_wrap">
+						                    <img src="images/user1.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Charlie-Chaplin</span> положительно оценил(а) ваш отзыв к товару <a href="#" class="blue long">Advanced Perfomance Supplements: Perfomance Perfomance</a>
+                                            </div>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="but_wrap pad">
+						            <a href="#" class="button">Все уведомления</a>
+						        </div>
+						    </div>
+						</div>
+						<!--<div class="login open_modal_login">Вход / Регистрация</div>-->
+						<div class="login login_info open_dropdown">
+                            <div class="elem">
+                                <span class="avatar"><img src="images/profile.jpg" alt=""></span>
+                                <span class="name">Honey_Moon</span>
+                            </div>
+						    <div class="dropdown_block">
+						        <div class="counter pad">
+						              Коммерческие аккаунты: <span class="count">3</span>
+						        </div>
+						        <div class="dropdown_wrap">
+						            <div class="drop_item acc">
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/profile.jpg" alt="">
+                                            </div>
+                                            <div class="text_wrap">
+                                                <div class="bold">Honey_Moon</div>
+                                                <ul class="cont_list">
+                                                    <li>Город: Ростов-на-Дону</li>
+                                                    <li>Почта: honeymoon@gmail.com</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+						            </div>
+						            <div class="drop_item">
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/icons/mag.png" alt="">
+                                            </div>
+                                            <div class="text_wrap">
+                                                <div class="bold">Спарта</div>
+                                                <ul class="cont_list">
+                                                    <li>Город: Ростов-на-Дону</li>
+                                                    <li>Адрес: Пушкинская, 123</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+						            </div>
+						            <div class="drop_item">
+                                        <a href="#">
+                                            <div class="img_wrap">
+                                                <img src="images/icons/club.png" alt="">
+                                            </div>
+                                            <div class="text_wrap">
+                                                <div class="bold">World Class</div>
+                                                <ul class="cont_list">
+                                                    <li>Город: Ростов-на-Дону</li>
+                                                    <li>Адрес: пер. Ворошиловский, 93</li>
+                                                </ul>
+                                            </div>
+                                        </a>
+						            </div>
+						        </div>
+						        <div class="pad alc">
+						            <a href="#" class="grey">Все коммерческие аккаунты</a>
+						        </div>
+						        <div class="pad but_wrap">
+						            <a href="#" class="button">В профиль</a>
+						            <a href="#" class="button">Выход</a>
+						        </div>
+						    </div>
+				        </div>
+					</div>
+					<div class="menu_key"></div>
+					<nav class="menu clearfix">
+						<ul class="clearfix">
+							<li class="menu-item-has-children columns-wrap">
+								<a href="#">Спортивное питание</a>
+								<div class="sub-menu-wrap">
+									<ul class="columns sub-menu">
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Аминокислоты</a></li>
+												<li><a href="#">Батончики и Питание</a></li>
+												<li><a href="#">Витамины и Минералы</a></li>
+												<li><a href="#">Во время тренировки</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Гейнеры</a></li>
+												<li><a href="#">Готовые напитки</a></li>
+												<li><a href="#">Жиросжигатели и Снижение веса</a></li>
+												<li><a href="#">Здоровье и Долголетие</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Креатин</a></li>
+												<li><a href="#">Перед тренировкой</a></li>
+												<li><a href="#">После тренировки</a></li>
+												<li><a href="#">Повышение тестостерона</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Протеин</a></li>
+												<li><a href="#">Суставы и Связки</a></li>
+												<li><a href="#">Энергия</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item-has-children columns-wrap red_letter">
+								<a href="#">Цели и Задачи</a>
+								<div class="sub-menu-wrap">
+									<ul class="columns sub-menu">
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Активное долголетие</a></li>
+												<li><a href="#">Восстановление и поддержка</a></li>
+												<li><a href="#">Выработка гормона роста</a></li>
+												<li><a href="#">Здоровый сон</a></li>
+												<li><a href="#">Здоровье мозга и психики</a></li>
+												<li><a href="#">Зрение и Защита глаз</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Набор мышечной массы</a></li>
+												<li><a href="#">Общее здоровье</a></li>
+												<li><a href="#">Печень и Снижение холестерина</a></li>
+												<li><a href="#">Повышение тестостерона</a></li>
+												<li><a href="#">Почки и Мочеполовая система</a></li>
+												<li><a href="#">Сердце и Сосуды</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Снижение веса</a></li>
+												<li><a href="#">Увеличение интенсивности</a></li>
+												<li><a href="#">Увеличение силы</a></li>
+												<li><a href="#">Увеличение энергии</a></li>
+												<li><a href="#">Укрепление иммунитета</a></li>
+												<li><a href="#">Укрепление суставов и связок</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Улучшение пищеварения</a></li>
+												<li><a href="#">Улучшение производительности</a></li>
+												<li><a href="#">Энергетическая подпитка</a></li>
+												<li><a href="#">Энергия и Концентрация</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu-item-has-children columns-wrap red_letter">
+								<a href="#">Бренды</a>
+								<div class="sub-menu-wrap">
+									<ul class="columns sub-menu">
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">4UZE</a></li>
+												<li><a href="#">Anna Nova Nutrition</a></li>
+												<li><a href="#">BioTech USA</a></li>
+												<li><a href="#">BSN</a></li>
+												<li><a href="#">Dymatize Nutrition</a></li>
+												<li><a href="#">FIT-Rx</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">HardLabz</a></li>
+												<li><a href="#">Maxler</a></li>
+												<li><a href="#">Maximum Human Performance (MHP)</a></li>
+												<li><a href="#">MusclePharm</a></li>
+												<li><a href="#">MuscleTech</a></li>
+												<li><a href="#">Nanox Nutriceuticals</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Nutrex Research</a></li>
+												<li><a href="#">Olimp Sport Nutrition</a></li>
+												<li><a href="#">Optimum Nutrition</a></li>
+												<li><a href="#">Power System</a></li>
+												<li><a href="#">Pure Protein</a></li>
+												<li><a href="#">San Nutrition</a></li>
+											</ul>
+										</li>
+										<li class="column menu-item-has-children">
+											<ul class="sub-menu">
+												<li><a href="#">Twinlab</a></li>
+												<li><a href="#">Ultimate Nutrition</a></li>
+												<li><a href="#">Universal Nutrition</a></li>
+												<li><a href="#">VPLab</a></li>
+												<li><a href="#">Weider</a></li>
+												<li><a href="#">Aкадемия-Т</a></li>
+											</ul>
+										</li>
+										<li class="red"><a href="#">Смотреть больше брендов</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">Магазины</a></li>
+							<li><a href="#">Клубы</a></li>
+							<li><a href="#">Статьи</a></li>
+							<li class="search mobile"><a href="search_page.html">Поиск</a></li>
+							<li class="notif mobile"><a href="#">Уведомления</a></li>
+							<!--<li class="login open_modal_login mobile">Вход / Регистрация</li>-->
+							<li class="login login_info mobile"><a href="#">Личный кабинет</a></li>
+							<li class="town open_modal_town mobile">Выбор города</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	
+	<div class="global-wrap">
+		<div class="breadcrumbs_wrap wrapper">
+			<ul id="breadcrumbs">
+				<li><a href="index.itml">Главная</a></li>
+				<li>Личный кабинет</li>
+			</ul>
+		</div>
+		<section>
+            <div class="content_tabs wrapper">
+                <div class="white pad bordered mar_bot">
+                    <div id="tabs_nav" class="user_tabs_nav search_filter">
+                        <ul class="search_cat_list">
+                            <li><a href="#tabs-1">Профиль</a></li>
+                            <li><a href="#tabs-2">Закладки</a></li>
+                            <li><a href="#tabs-3">Отзывы</a></li>
+                            <li><a href="#tabs-4">Комментарии</a></li>
+                            <li><a href="#tabs-5">Уведомления</a></li>
+                            <li><a href="#tabs-6">Заведения</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user_tabs">
+                    <div id="tabs">
+                        <div id="tabs-1">
+                            <div class="white pad bordered mar_bot profile_image alc">
+                                <div class="profile_image_wrap">
+                                   <form action="#">
+                                        <div class="img_wrap"><img src="images/profile.jpg"></div>
+                                        <div class="av_options">
+                                           <div class="av_option">
+                                                <input type="file" name="">
+                                                <div class="choose">Выбрать</div>
+                                           </div>
+                                           <div class="av_option">
+                                                <input type="reset" value="Удалить">
+                                           </div>
+                                        </div>
+                                   </form>
+                                </div>
+                            </div>
+                            <div class="white pad bordered mar_bot profile_info">
+                                <div class="ttl">Персональная информация</div>
+                                <form>
+                                    <div class="form_row clearfix">
+                                        <div class="input_wrap">
+                                            <label>Логин</label>
+                                            <input type="text" name="" placeholder="">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>E-mail</label>
+                                            <input type="text" name="" placeholder="">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Имя и фамилия</label>
+                                            <input type="text" name="" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="form_row clearfix">
+                                        <div class="input_wrap">
+                                            <label>Пол</label>
+                                            <select class="taste-select custom-select" name="taste" required="">
+                                                <option>Мужской</option>
+                                                <option>Женский</option>
+                                            </select>
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Возраст</label>
+                                            <input type="text" name="" placeholder="">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Город</label>
+                                            <select class="town-select">
+                                                <option>Москва</option>
+                                                <option>Санкт-Петербург</option>
+                                                <option>Новосибирск</option>
+                                                <option>Екатеринбург</option>
+                                                <option>Нижний Новгород</option>
+                                                <option>Казань</option>
+                                                <option>Челябинск</option>
+                                                <option>Омск</option>
+                                                <option>Самара</option>
+                                                <option>Ростов-на-Дону</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="but_wrap">
+                                        <input type="submit" name="" value="Сохранить" class="button">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="white pad bordered mar_bot profile_info">
+                                <div class="ttl">Социальные сети</div>
+                                <form>
+                                    <div class="form_row clearfix">
+                                        <div class="input_wrap">
+                                            <label>Facebook</label>
+                                            <input type="text" name="" placeholder="https://">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Twitter</label>
+                                            <input type="text" name="" placeholder="https://">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>VK</label>
+                                            <input type="text" name="" placeholder="https://">
+                                        </div>
+                                    </div>
+                                    <div class="but_wrap">
+                                        <input type="submit" name="" value="Сохранить" class="button">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="white pad bordered profile_info">
+                                <div class="ttl">Смена пароля</div>
+                                <form>
+                                    <div class="form_row clearfix">
+                                        <div class="input_wrap">
+                                            <label>Старый пароль</label>
+                                            <input type="password" name="" placeholder="password">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Новый пароль</label>
+                                            <input type="password" name="" placeholder="password">
+                                        </div>
+                                        <div class="input_wrap">
+                                            <label>Повтор нового пароля</label>
+                                            <input type="password" name="" placeholder="password">
+                                        </div>
+                                    </div>
+                                    <div class="but_wrap">
+                                        <input type="submit" name="" value="Сохранить" class="button">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="tabs-2">
+                            <ul class="product_list">
+                <li class="col4 product_item bordered">
+                    <div class="image"><a href="#"><img src="images/products/previews/1.png"></a></div>
+                    <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                    <div class="descr bold">
+                        <div>Advanced Perfomance Supplements</div>
+                        <div class="weight">2 267 г.</div>
+                    </div>
+                    <div class="review clearfix">
+                        <div class="user-rate left">
+                            <span class="user-rate-image">
+                                <span style="width: 86.3333%;"></span>
+                            </span>
+                        </div>
+                        <div class="rev_count right"><a href="#">3 отзыва</a></div>
+                    </div>
+                    <div class="price_wrap clearfix">
+                        <div class="left price">от <span class="bold">10 999</span> руб.</div>
+                        <div class="bookmark right"><a href="#"></a></div>
+                    </div>
+                    <div class="shop_prices">
+                        <ul>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Squeezy Sports Nutrition</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>PureProtein Moscow</a></div>
+                                <div class="price right"><span class="bold">3 689</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>SportivnoePitanie.ru</a></div>
+                                <div class="price right"><span class="bold">8 000</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Вектор Здоровья</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>ФизикаТела</a></div>
+                                <div class="price right"><span class="bold">750</span> руб.</div>
+                            </li>
+                        </ul>
+                        <div class="but_wrap"><a href="#" class="button">Все цены</a></div>
+                    </div>
+                </li>
+
+                <li class="col4 product_item bordered">
+                    <div class="image"><a href="#"><img src="images/products/previews/2.png"></a></div>
+                    <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                    <div class="descr bold">
+                        <div>Advanced Perfomance Supplements</div>
+                        <div class="weight">2 267 г.</div>
+                    </div>
+                    <div class="review clearfix">
+                        <div class="user-rate left">
+                            <span class="user-rate-image">
+                                <span style="width: 90%;"></span>
+                            </span>
+                        </div>
+                        <div class="rev_count right"><a href="#">3 отзыва</a></div>
+                    </div>
+                    <div class="price_wrap clearfix">
+                        <div class="left price">от <span class="bold">10 999</span> руб.</div>
+                        <div class="bookmark right"><a href="#" class="in_bookmark"></a></div>
+                    </div>
+                    <div class="shop_prices">
+                        <ul>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Squeezy Sports Nutrition</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>PureProtein Moscow</a></div>
+                                <div class="price right"><span class="bold">3 689</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>SportivnoePitanie.ru</a></div>
+                                <div class="price right"><span class="bold">8 000</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Вектор Здоровья</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>ФизикаТела</a></div>
+                                <div class="price right"><span class="bold">750</span> руб.</div>
+                            </li>
+                        </ul>
+                        <div class="but_wrap"><a href="#" class="button">Все цены</a></div>
+                    </div>
+                </li>
+
+                <li class="col4 product_item bordered">
+                    <div class="image"><a href="#"><img src="images/products/previews/3.png"></a></div>
+                    <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                    <div class="descr bold">
+                        <div>Advanced Perfomance Supplements</div>
+                        <div class="weight">2 267 г.</div>
+                    </div>
+                    <div class="review clearfix">
+                        <div class="user-rate left">
+                            <span class="user-rate-image">
+                                <span style="width: 100%;"></span>
+                            </span>
+                        </div>
+                        <div class="rev_count right"><a href="#">3 отзыва</a></div>
+                    </div>
+                    <div class="price_wrap clearfix">
+                        <div class="left price">от <span class="bold">10 999</span> руб.</div>
+                        <div class="bookmark right"><a href="#"></a></div>
+                    </div>
+                    <div class="shop_prices">
+                        <ul>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Squeezy Sports Nutrition</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>PureProtein Moscow</a></div>
+                                <div class="price right"><span class="bold">3 689</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>SportivnoePitanie.ru</a></div>
+                                <div class="price right"><span class="bold">8 000</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Вектор Здоровья</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>ФизикаТела</a></div>
+                                <div class="price right"><span class="bold">750</span> руб.</div>
+                            </li>
+                        </ul>
+                        <div class="but_wrap"><a href="#" class="button">Все цены</a></div>
+                    </div>
+                </li>
+                <li class="col4 product_item bordered">
+                    <div class="image"><a href="#"><img src="images/products/previews/3.png"></a></div>
+                    <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                    <div class="descr bold">
+                        <div>Advanced Perfomance Supplements</div>
+                        <div class="weight">2 267 г.</div>
+                    </div>
+                    <div class="review clearfix">
+                        <div class="user-rate left">
+                            <span class="user-rate-image">
+                                <span style="width: 100%;"></span>
+                            </span>
+                        </div>
+                        <div class="rev_count right"><a href="#">3 отзыва</a></div>
+                    </div>
+                    <div class="price_wrap clearfix">
+                        <div class="left price">от <span class="bold">10 999</span> руб.</div>
+                        <div class="bookmark right"><a href="#"></a></div>
+                    </div>
+                    <div class="shop_prices">
+                        <ul>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Squeezy Sports Nutrition</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>PureProtein Moscow</a></div>
+                                <div class="price right"><span class="bold">3 689</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>SportivnoePitanie.ru</a></div>
+                                <div class="price right"><span class="bold">8 000</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>Вектор Здоровья</a></div>
+                                <div class="price right"><span class="bold">12 999</span> руб.</div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="ttl left"><a href="#"><span class="icon"></span>ФизикаТела</a></div>
+                                <div class="price right"><span class="bold">750</span> руб.</div>
+                            </li>
+                        </ul>
+                        <div class="but_wrap"><a href="#" class="button">Все цены</a></div>
+                    </div>
+                </li>
+                </ul>
+                        </div>
+                        <div id="tabs-3" class="product_review">
+                            <div class="bordered white pad">
+                                <ul class="commentlist review_list">
+                                    <li class="comment">
+                                        <div class="comment-container">
+                                            <div class="comment_img"><img src="images/comments/1.jpg" alt=""></div>
+                                            <div class="user-rate">
+                                                Оценка:
+                                                <span class="user-rate-image">
+                                                    <span style="width: 86.3333%;"></span>
+                                                </span>
+                                            </div>
+                                            <div class="comment-content">
+                                                <div class="comment-head">
+                                                    <span class="name bold">Владислав</span>
+                                                    <span class="date">17.07.2015</span>
+                                                </div>
+                                                <div class="comment-entry">
+                                                    <p>Лучшее, что есть на рынке.</p>
+                                                    <p>Вкус Ванильное мороженое. Если с молоком, то вообще SUPER! Перепробовал много протеинов, но то вкус не очень то ЖКТ пучит. Жаль только цены "кусаются" Но всё равно, рекомендую!</p>
+                                                </div>  
+                                                <div class="usefull">
+                                                    <span>Отзыв полезен?</span>
+                                                    <span class="vote">
+                                                        <a href="#" class="like">256</a>
+                                                        <a href="#" class="dislike">50</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="comment">
+                                        <div class="comment-container">
+                                            <div class="comment_img"><img src="images/comments/1.jpg" alt=""></div>
+                                            <div class="user-rate">
+                                                Оценка:
+                                                <span class="user-rate-image">
+                                                    <span style="width: 86.3333%;"></span>
+                                                </span>
+                                            </div>
+                                            <div class="comment-content">
+                                                <div class="comment-head">
+                                                    <span class="name bold">Владислав</span>
+                                                    <span class="date">17.07.2015</span>
+                                                </div>
+                                                <div class="comment-entry">
+                                                    <p>Лучшее, что есть на рынке.</p>
+                                                    <p>Вкус Ванильное мороженое. Если с молоком, то вообще SUPER! Перепробовал много протеинов, но то вкус не очень то ЖКТ пучит. Жаль только цены "кусаются" Но всё равно, рекомендую!</p>
+                                                </div>  
+                                                <div class="usefull">
+                                                    <span>Отзыв полезен?</span>
+                                                    <span class="vote">
+                                                        <a href="#" class="like">26</a>
+                                                        <a href="#" class="dislike">50</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="comment">
+                                        <div class="comment-container">
+                                            <div class="comment_img"><img src="images/comments/1.jpg" alt=""></div>
+                                            <div class="user-rate">
+                                                Оценка:
+                                                <span class="user-rate-image">
+                                                    <span style="width: 26.3333%;"></span>
+                                                </span>
+                                            </div>
+                                            <div class="comment-content">
+                                                <div class="comment-head">
+                                                    <span class="name bold">Владислав</span>
+                                                    <span class="date">17.07.2015</span>
+                                                </div>
+                                                <div class="comment-entry">
+                                                    <p>Лучшее, что есть на рынке.</p>
+                                                    <p>Вкус Ванильное мороженое. Если с молоком, то вообще SUPER! Перепробовал много протеинов, но то вкус не очень то ЖКТ пучит. Жаль только цены "кусаются" Но всё равно, рекомендую!</p>
+                                                </div>  
+                                                <div class="usefull">
+                                                    <span>Отзыв полезен?</span>
+                                                    <span class="vote">
+                                                        <a href="#" class="like">2</a>
+                                                        <a href="#" class="dislike">0</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="tabs-4" class="discuss">
+                            <div class="bordered white pad">
+                            <ul class="commentlist">
+                                <li class="comment depth-1">
+                                    <div class="comment-container">
+                                        <div class="comment_img"><img src="images/comments/1.jpg" alt=""></div>
+                                        <div class="comment-content">
+                                            <div class="comment-head">
+                                                <span class="name bold">Владислав</span>
+                                                <span class="date">17.07.2015</span>
+                                            </div>
+                                            <div class="comment-entry">
+                                                <p>Лучшее, что есть на рынке.</p>
+                                                <p>Вкус Ванильное мороженое. Если с молоком, то вообще SUPER! Перепробовал много протеинов, но то вкус не очень то ЖКТ пучит. Жаль только цены "кусаются" Но всё равно, рекомендую!</p>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="comment depth-1">
+                                    <div class="comment-container">
+                                        <div class="comment_img"><img src="images/comments/1.jpg" alt=""></div>
+                                        <div class="comment-content">
+                                            <div class="comment-head">
+                                                <span class="name bold">Владислав</span>
+                                                <span class="date">17.07.2015</span>
+                                            </div>
+                                            <div class="comment-entry">
+                                                <p>Лучшее, что есть на рынке.</p>
+                                                <p>Вкус Ванильное мороженое. Если с молоком, то вообще SUPER! Перепробовал много протеинов, но то вкус не очень то ЖКТ пучит. Жаль только цены "кусаются" Но всё равно, рекомендую!</p>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>		
+                        <div id="tabs-5" class="notif_tab">
+                            <div class="bordered white pad notif_list_wrap">
+                                <div class="dropdown_wrap">
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/mag.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+						                      <span class="bold">Спарта</span> ответил(а) на ваш отзыв к магазину <a href="#" class="blue">Спарта</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item answer">
+						                <div class="img_wrap">
+						                    <img src="images/icons/club.png" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">World Class</span> ответил(а) на ваш отзыв к клубу <a href="#" class="blue">World Class</a>
+						                    </div>
+						                </div>
+						            </div>
+						            <div class="drop_item goodrate">
+						                <div class="img_wrap">
+						                    <img src="images/user1.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Charlie-Chaplin</span> положительно оценил(а) ваш отзыв к товару <a href="#" class="blue long">Advanced Perfomance Supplements: Perfomance Perfomance</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item badrate">
+						                <div class="img_wrap">
+						                    <img src="images/user1.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Charlie-Chaplin</span> отрицательно оценил(а) ваш отзыв к товару <a href="#" class="blue long">Advanced Perfomance Supplements</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш магазин <a href="#" class="blue long">Atlet Shop</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш клуб <a href="#" class="blue long">X-Fit Premium</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item badrate">
+						                <div class="img_wrap">
+						                    <img src="images/user1.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Charlie-Chaplin</span> отрицательно оценил(а) ваш отзыв к товару <a href="#" class="blue long">Advanced Perfomance Supplements</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш магазин <a href="#" class="blue long">Atlet Shop</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш клуб <a href="#" class="blue long">X-Fit Premium</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item badrate">
+						                <div class="img_wrap">
+						                    <img src="images/user1.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Charlie-Chaplin</span> отрицательно оценил(а) ваш отзыв к товару <a href="#" class="blue long">Advanced Perfomance Supplements</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш магазин <a href="#" class="blue long">Atlet Shop</a>
+                                            </div>
+						                </div>
+						            </div>
+						            <div class="drop_item add">
+						                <div class="img_wrap">
+						                    <img src="images/admin_profile.jpg" alt="">
+						                </div>
+						                <div class="text_wrap">
+                                            <div class="text">
+                                                <span class="bold">Admin</span> авторизовал ваш клуб <a href="#" class="blue long">X-Fit Premium</a>
+                                            </div>
+						                </div>
+						            </div>
+						        </div>
+                                <button class="add_more button grey">Загрузить ещё</button>
+                            </div>
+                        </div>		
+                        <div id="tabs-6" class="companies">
+                            <div class="bordered white pad redinfo mar_bot">
+                                <p>Внимание! Нажимая кнопку “создать магазин” или “создать клуб”, вы подтверждаете, что являетесь владельцем заведения, его сотрудником или же официальным представителем. В ином случае администрация сервиса I Love My Sport оставляет за собой право заблокировать ваш аккаунт без права на восстановление. </p>
+
+                                <p>Обращаем ваше внимание на то, что по умолчании созданный магазин или клуб остаётся недоступным для пользователей. Для того чтобы активировать коммерческий профиль сервис I Love My Sport должен убедиться в том, что вы являетесь законным владельцем или представителем, созданной вами компании. Мы свяжемся с вами посредством официальных реквизитов, указанных на вашем сайте. С целью обеспечения должной безопасности сервис I Love My Sport не вправе связыватсья с вами посредством личных контактных данных представителей, сотрудников или владельца заведения.</p>
+
+                                <p>После подтверждения личности, ваш магазин или клуб будет авторизован и станет доступным для поиска и просмотра.</p>
+                            </div>
+                            <div class="add_company bordered white pad">
+                                <div class="add_company_item pad bordered">
+                                    <div class="img_wrap">
+                                        <img src="images/icons/mag_big.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="ttl alc">Магазин</div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>Бесплатная регистрация магазина</li>
+                                                <li>Нет платы за клики или покупки</li>
+                                                <li>Получайте отзывы о магазине</li>
+                                                <li>Публикуйте стоимость товаров</li>
+                                                <li>Повысьте узнаваемость бренда</li>
+                                                <li>Увеличьте вашу прибыль</li>
+                                            </ul>
+                                        </div>
+                                        <div class="but_wrap">
+                                            <a href="#" class="button">Создать магазин</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="add_company_item pad bordered">
+                                    <div class="img_wrap">
+                                        <img src="images/icons/club_big.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <div class="ttl alc">Фитнес-клуб</div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>Бесплатная регистрация клуба</li>
+                                                <li>Нет платы за клики или покупки</li>
+                                                <li>Получайте отзывы о клубе</li>
+                                                <li>Информируйте об абонементах</li>
+                                                <li>Повысьте узнаваемость бренда</li>
+                                                <li>Увеличьте вашу прибыль</li>
+                                            </ul>
+                                        </div>
+                                        <div class="but_wrap">
+                                            <a href="#" class="button">Создать клуб</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>		
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper bordered">
+				<div class="info">
+					Вся информация на сайте о товарах, заведениях, услугах и ценах носит справочный характер и не является публичной офертой в соответствии с пунктом 2 статьи 437 ГК РФ.
+				</div>
+				<div class="foot_list clearfix">
+					<div class="col4">
+						<div class="ttl bold">Пользователи</div>
+						<ul>
+							<li><a href="#" class="open_modal_quest">Задать вопрос</a></li>
+							<li><a href="#" class="open_modal_passrecovery">Восстановить пароль</a></li>
+							<li><a href="#">Пользовательское соглашение</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+						</ul>
+					</div>
+					<div class="col4">
+						<div class="ttl bold">Магазины и Клубы</div>
+						<ul>
+							<li><a href="#" class="open_modal_quest">Задать вопрос</a></li>
+							<li><a href="#">Продвижение и Реклама</a></li>
+							<li><a href="#" class="open_modal_compregister">Добавить свой магазин или клуб</a></li>
+						</ul>
+					</div>
+					<div class="col4">
+						<div class="ttl bold">I Love My Sport</div>
+						<ul>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#" class="edit_product_footer">Редактировать товар</a></li>
+							<li><a href="#" class="add_product_footer">Добавить товар в базу</a></li>
+						</ul>
+					</div>
+					<div class="col4 contacts">
+						<div class="ttl bold">Подпишитесь</div>
+						<div class="subs_form">
+							<form action="#" method="post" class="clearfix">
+								<input type="email" class="subs_input" name="subs_email" placeholder="Введите ваш e-mail">
+								<input type="submit" class="subs_but">
+							</form>
+						</div>
+						<div class="ttl bold">Обретите мотивацию с нами</div>
+						<div class="socials">
+							<ul class="clearfix">
+								<li><a target="_blank" href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+								<li><a target="_blank" href="#" class="fb"><i class="fa fa-facebook"></i></a></li>
+								<li><a target="_blank" href="#" class="tw"><i class="fa fa-twitter"></i></a></li>
+								<li><a target="_blank" href="#" class="gp"><i class="fa fa-google-plus"></i></a></li>
+								<li><a target="_blank" href="#" class="ok"><i class="fa fa-odnoklassniki"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copy_wrap clearfix">
+				    <div class="copyright">© 2016 I love My Sport. Все права защищены.</div>
+				    <div class="payment">
+				        <ul class="pay_list">
+				            <li><img src="images/icons/pay1.png" alt=""></li>
+				            <li><img src="images/icons/pay2.png" alt=""></li>
+				            <li><img src="images/icons/pay3.png" alt=""></li>
+				        </ul>
+				    </div>
+				</div>
+			</div>		
+		</footer>
+		
+		<a href="#" class="page-scroll"></a>
+	</div>
+
+		<!-- Modals -->
+		<div style="display: none;">
+			<div id="modal_login" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/login.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Логин</h4>
+							<h5>Введите логин, указанный вами при регистрации</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="login" required=""></div>
+						</div>
+
+						<div class="form-section">
+							<h4>Пароль</h4>
+							<h5>Введите пароль, указанный вами при регистрации</h5>
+							<div class="input_wrap">
+							<input type="password" class="form-control" name="pass" required=""></div>
+						</div>
+
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links clearfix">
+					<div class="left"><a class="open_modal_register" href="#">Регистрация</a></div>
+					<div class="right"><a href="#" class="open_modal_passrecovery">Восстановление пароля</a></div>
+				</div>
+			</div>
+
+			<div id="modal_register" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/register.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section text-section">
+							<h4>Регистрация</h4>
+							<h5>Регистрируясь, вы подтверждаете своё согласие с Пользовательским Соглашением</h5>
+						</div>
+						<div class="form-section">
+							<h4>Логин</h4>
+							<h5>Используйте только буквы (A-Z,a-z) и цифры 0-9. Логин может быть от 4 до 20 символов</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="reg_login" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Пароль</h4>
+							<h5>Используйте цифры, подчёркивания и символы, чтобы обезопасить ваш аккаунт</h5>
+							<div class="input_wrap">
+							<input type="password" class="form-control" name="reg_pass" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Email</h4>
+							<h5>Введите email, к которому у вас есть доступ</h5>
+							<div class="input_wrap">
+							<input type="email" class="form-control" name="reg_pass" required=""></div>
+						</div>
+
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links alc">
+					Если вы клуб или магазин - <a class="open_modal_compregister" href="#">Регистрация компаний</a>
+				</div>
+			</div>
+
+			<div id="modal_compregister" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/compregister.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section text-section">
+							<h4>Город</h4>
+							<h5>Выберите ваш город</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Москва</option>
+								<option>Санкт-Петербург</option>
+								<option>Новосибирск</option>
+								<option>Екатеринбург</option>
+								<option>Нижний Новгород</option>
+								<option>Казань</option>
+								<option>Челябинск</option>
+								<option>Омск</option>
+								<option>Самара</option>
+								<option>Ростов-на-Дону</option>
+							</select></div>
+						</div>
+						<div class="form-section">
+							<h4>Название компании</h4>
+							<h5>Напишите название магазина или клуба</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="reg_comp" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Сайт</h4>
+							<h5>Используйте цифры, подчёркивания и символы, чтобы обезопасить ваш аккаунт</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="reg_site" placeholder="http://"></div>
+						</div>
+						<div class="form-section">
+							<h4>Email</h4>
+							<h5>Введите email, к которому у вас есть доступ</h5>
+							<div class="input_wrap">
+							<input type="email" class="form-control" name="reg_pass" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Социальная сеть</h4>
+							<h5>Введите адрес вашей страницы в любой социальной сети</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="reg_pass" placeholder="http://"></div>
+						</div>
+						<div class="form-section">
+							<h4>Текст обращения</h4>
+							<div class="input_wrap">
+							<textarea class="form-control" name="reg_text" placeholder="Помните, что логин и пароль могут быть присланы только на официальные реквизиты, указанные на сайте вашей компании!"></textarea></div>
+						</div>
+
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links alc">
+				</div>
+			</div>
+<div id="modal_advert" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/adv.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Реклама и Продвижение</h4>
+							<h5>Удостоверьтесь, что стоимость совпадает с той, которую вы выбрали</h5>
+							<div class="input_wrap">
+							<input disabled type="text" class="form-control" id="chosen_price" name="chosen_price" required=""></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Период</h4>
+							<h5>Выберите на какой период разместить рекламу вашей компании</h5>
+							<div class="input_wrap">
+							<select class="town-select" id="adv_period" name="adv_period" required="">
+								<option>1 месяц</option>
+								<option>2 месяца</option>
+								<option>3 месяца</option>
+								<option>4 месяца</option>
+								<option>5 месяцев</option>
+								<option>6 месяцев</option>
+								<option>7 месяцев</option>
+								<option>8 месяцев</option>
+								<option>9 месяцев</option>
+								<option>10 месяцев</option>
+								<option>11 месяцев</option>
+								<option>12 месяцев</option>
+							</select></div>
+						</div>
+						<div class="form-section">
+							<h4>Конечная цена</h4>
+							<h5>Удостоверьтесь, что конечная цена верная, после чего производите оплату</h5>
+							<div class="input_wrap">
+							<input disabled type="text" class="form-control" id="total_price" name="total_price" ></div>
+						</div>
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links alc"></div>
+			</div>
+			<div id="modal_quest" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/quest.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Имя</h4>
+							<h5>Введите ваше имя или логин</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" name="name" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Email</h4>
+							<h5>Введите email, к которому у вас есть доступ</h5>
+							<div class="input_wrap">
+							<input type="email" class="form-control" name="reg_pass" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Тема обращения</h4>
+							<h5>Тема обращения</h5>
+							<div class="input_wrap">
+								<select class="town-select" name="reg_town" required="">
+									<option>Восстановление пароля</option>
+									<option>Другое</option>
+									<option>Ошибка в описании клуба</option>
+									<option>Ошибка в описании магазина</option>
+									<option>Ошибка в описании товара</option>
+									<option>Ошибка на сайте (баг)</option>
+									<option>Перевод изображения с английского</option>
+									<option>Перевод статьи с английского</option>
+									<option>Помощь по сайту</option>
+									<option>Продвижение и реклама</option>
+									<option>Регистрация клуба</option>
+									<option>Регистрация магазина</option>
+									<option>Сотрудничество</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-section">
+							<h4>Текст обращения</h4>
+							<div class="input_wrap">
+							<textarea class="form-control" name="reg_text" placeholder="..."></textarea></div>
+						</div>
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links alc">
+					Если вы забыли пароль - <a class="open_modal_passrecovery" href="#">Восстановление пароля</a>
+				</div>
+			</div>
+
+			<div id="modal_town" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/place.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section text-section">
+							<h4>Город</h4>
+							<h5>Выберите ваш город</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Москва</option>
+								<option>Санкт-Петербург</option>
+								<option>Новосибирск</option>
+								<option>Екатеринбург</option>
+								<option>Нижний Новгород</option>
+								<option>Казань</option>
+								<option>Челябинск</option>
+								<option>Омск</option>
+								<option>Самара</option>
+								<option>Ростов-на-Дону</option>
+							</select></div>
+						</div>
+						<div class="form-navigation">
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links alc">
+				</div>
+			</div>
+			<div id="modal_passrecovery" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/pass.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Восстановление пароля</h4>
+							<h5>В течение 10 минут на ваш email придёт письмо с дальнейшими инструкциями</h5>
+						</div>
+						<div class="form-section">
+							<h4>Email</h4>
+							<h5>Введите email, к которому у вас есть доступ</h5>
+							<div class="input_wrap">
+							<input type="email" class="form-control" name="reg_pass" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links"></div>
+			</div>
+			<div id="modal_add_product" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/add_prod.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Добавление товара</h4>
+							<h5>Выберите товары, имеющиеся у вас в наличии</h5>
+						</div>
+						<div class="vertical_scroll">
+						    <div class="add_prod_list">
+						        <div class="checkbox">
+                                   <div class="add_prod_info">
+                                       <div class="img_wrap"><img src="images/products/small/1.png" alt=""></div>
+                                       <div class="descr">
+                                            <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                                            <div class="bold grey">
+                                                <div>Advanced Perfomance Supplements</div>
+                                                <div class="weight">2 267 г.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" value="product1" id="product1">		
+                                    <label for="product1"></label>
+                                </div>
+						        
+						        <div class="checkbox">
+                                   <div class="add_prod_info">
+                                       <div class="img_wrap"><img src="images/products/small/1.png" alt=""></div>
+                                       <div class="descr">
+                                            <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                                            <div class="grey">
+                                                <div>Advanced Perfomance Supplements</div>
+                                                <div class="weight">2 267 г.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" value="product2" id="product2">		
+                                    <label for="product2"></label>
+                                </div>
+						        
+						        <div class="checkbox">
+                                   <div class="add_prod_info">
+                                       <div class="img_wrap"><img src="images/products/small/2.png" alt=""></div>
+                                       <div class="descr">
+                                            <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                                            <div class="bold grey">
+                                                <div>Advanced Perfomance Supplements</div>
+                                                <div class="weight">2 267 г.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" value="product3" id="product3">		
+                                    <label for="product3"></label>
+                                </div>
+						        
+						        <div class="checkbox">
+                                   <div class="add_prod_info">
+                                       <div class="img_wrap"><img src="images/products/small/1.png" alt=""></div>
+                                       <div class="descr">
+                                            <div class="title bold"><a href="#">Protein Matrix L-Glutamine + Vitaminyyy</a></div>
+                                            <div class="bold grey">
+                                                <div>Advanced Perfomance Supplements</div>
+                                                <div class="weight">2 267 г.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" value="product4" id="product4">		
+                                    <label for="product4"></label>
+                                </div>
+						    </div>
+                            <div class="but_wrap">
+                                <input type="submit" class="button" value="Добавить товары">
+                            </div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="modal_add_product_footer" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/add_prod_foot.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section">
+							<h4>Создание нового товара</h4>
+							<h5>Создание нового товара займёт всего одну минуту вашего времени. Приступим?</h5>
+						</div>
+						<div class="form-section">
+							<h4>Товар</h4>
+							<h5>Вставьте ссылку на страницу товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="http://" required=""></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Вкус</h4>
+							<h5>Выберите вкус товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Абрикос</option>
+								<option>Абрикосовый Йогурт</option>
+								<option>Ананас</option>
+								<option>Ананас-Манго</option>
+								<option>Апельсин</option>
+								<option>Апельсин-Кокос</option>
+								<option>Апельсин-Королёк</option>
+								<option>Апельсин-Манго</option>
+								<option>Апельсин-Шоколад</option>
+								<option>Арахис</option>
+								<option>Апельсин-Кокос</option>
+								<option>Апельсин-Королёк</option>
+								<option>Апельсин-Манго</option>
+								<option>Апельсин-Шоколад</option>
+								<option>Арахис</option>
+							</select></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Упаковка</h4>
+							<h5>Выберите тип упаковки товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Ампула</option>
+								<option>Банка</option>
+								<option>Бутылка</option>
+								<option>Коробка</option>
+								<option>Пакет</option>
+							</select></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Форма выпуска</h4>
+							<h5>Выберите тип формы выпуска товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Гель</option>
+								<option>Жевательные таблетки</option>
+								<option>Жидкость</option>
+								<option>Капсулы</option>
+								<option>Пилюли</option>
+								<option>Порошок</option>
+								<option>Таблетки</option>
+							</select></div>
+						</div>
+						<div class="form-section">
+							<h4>Количество порций</h4>
+							<h5>Напишите количество порций товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="60" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Размер порций</h4>
+							<h5>Напишите размер порций товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="40 г. / 25 мл. / 2 капс. / 1 жев.таб." required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Список ингредиентов</h4>
+							<h5>Вставьте ссылку на ингридиенты товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="http://" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links"></div>
+				</div>
+			<div id="modal_edit_product_footer" class="box-modal f-modal fixed-height">
+				<div class="box-modal_wrap">
+					<div class="box-modal-close arcticmodal-close"></div>
+					<div class="icon-wrap"><img src="images/icons/add_prod_foot.png"></div>
+
+					<form class="demo-form">
+						<div class="form-section text-section current">
+							<h4>Редактирование товара</h4>
+							<h5>Редактирование товара займёт всего одну минуту вашего времени. Приступим?</h5>
+						</div>
+						<div class="form-section">
+							<h4>Товар</h4>
+							<h5>Вставьте ссылку на страницу товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="http://" required=""></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Вкус</h4>
+							<h5>Выберите вкус товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Абрикос</option>
+								<option>Абрикосовый Йогурт</option>
+								<option>Ананас</option>
+								<option>Ананас-Манго</option>
+								<option>Апельсин</option>
+								<option>Апельсин-Кокос</option>
+								<option>Апельсин-Королёк</option>
+								<option>Апельсин-Манго</option>
+								<option>Апельсин-Шоколад</option>
+								<option>Арахис</option>
+								<option>Апельсин-Кокос</option>
+								<option>Апельсин-Королёк</option>
+								<option>Апельсин-Манго</option>
+								<option>Апельсин-Шоколад</option>
+								<option>Арахис</option>
+							</select></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Упаковка</h4>
+							<h5>Выберите тип упаковки товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Ампула</option>
+								<option>Банка</option>
+								<option>Бутылка</option>
+								<option>Коробка</option>
+								<option>Пакет</option>
+							</select></div>
+						</div>
+						<div class="form-section text-section">
+							<h4>Форма выпуска</h4>
+							<h5>Выберите тип формы выпуска товара</h5>
+							<div class="input_wrap">
+							<select class="town-select" name="reg_town" required="">
+								<option>Гель</option>
+								<option>Жевательные таблетки</option>
+								<option>Жидкость</option>
+								<option>Капсулы</option>
+								<option>Пилюли</option>
+								<option>Порошок</option>
+								<option>Таблетки</option>
+							</select></div>
+						</div>
+						<div class="form-section">
+							<h4>Количество порций</h4>
+							<h5>Напишите количество порций товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="60" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Размер порций</h4>
+							<h5>Напишите размер порций товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="40 г. / 25 мл. / 2 капс. / 1 жев.таб." required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>Список ингредиентов</h4>
+							<h5>Вставьте ссылку на ингридиенты товара</h5>
+							<div class="input_wrap">
+							<input type="text" class="form-control" placeholder="http://" required=""></div>
+						</div>
+						<div class="form-section">
+							<h4>А вы точно не робот?</h4>
+							<img src="images/captcha.jpg" alt="" class="captcha">
+						</div>
+
+						<div class="form-navigation">
+							<button type="button" class="button next">Продолжить</button>
+							<input type="submit" class="button" value="Отправить">
+						</div>
+					</form>
+				</div>
+				<div class="links"></div>
+			</div>
+		</div>
+	<div class="tip_overlay"></div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script type="text/javascript" src="js/hero_slider.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+	<script src="https://rawgit.com/guillaumepotier/Parsley.js/2.4.3/dist/parsley.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script type="text/javascript" src="js/nouislider.min.js"></script>
+<script type="text/javascript" src="js/jquery.barrating.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
